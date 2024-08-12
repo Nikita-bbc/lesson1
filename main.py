@@ -1,11 +1,6 @@
-# 1st program
-print((9 ** 0.5) * 5)
-# 2nd program
-print(9.99 > 9.98 and 1000.0 != 1000.1)
-# 3rd program
-print(2 * 2 + 2 == 2 * (2 + 2))
-# 4th program
-n = float('123.456')
-t = n * 10
-p = int(t)
-print(p % 10)
+count_task = 12
+count_hours = 1.5
+name_of_course = 'Python'
+time_task = count_hours / count_task
+print('Курс:', name_of_course, "\n" 'Всего задач:', count_task, "\n", 'Затрачено часов:', count_hours, "\n", 'Среднее время выполнения:',
+      time_task)
