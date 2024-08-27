@@ -1,0 +1,19 @@
+def print_params(a=1, b='string', c='True'):
+    print(a, b, c)
+
+
+dict_ = {'a': 6, 'b': '7', 'c': False}
+list_ = [1, 2, 3, 4, 5]
+print_params(list_, c = [65, 25, 35])
+print_params()
+print_params(dict_, b='ok')
+values_list = [2, True, 'hello']
+values_dict = {'a': 'python', 'b': 20, 'c': False}
+print_params(*values_list)
+print_params(**values_dict)
+def params_2(c, d):
+    print(c, d)
+
+
+values_list_2 = [12.45, 'world']
+params_2(*values_list_2, 42) # приведёт к ошибке, так как у функции всего 2 параметра
